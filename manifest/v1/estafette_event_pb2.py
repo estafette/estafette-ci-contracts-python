@@ -12,13 +12,13 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-from manifest.v1 import estafette_pipeline_event_pb2 as manifest_dot_v1_dot_estafette__pipeline__event__pb2
-from manifest.v1 import estafette_release_event_pb2 as manifest_dot_v1_dot_estafette__release__event__pb2
-from manifest.v1 import estafette_git_event_pb2 as manifest_dot_v1_dot_estafette__git__event__pb2
-from manifest.v1 import estafette_docker_event_pb2 as manifest_dot_v1_dot_estafette__docker__event__pb2
 from manifest.v1 import estafette_cron_event_pb2 as manifest_dot_v1_dot_estafette__cron__event__pb2
-from manifest.v1 import estafette_pub_sub_event_pb2 as manifest_dot_v1_dot_estafette__pub__sub__event__pb2
+from manifest.v1 import estafette_docker_event_pb2 as manifest_dot_v1_dot_estafette__docker__event__pb2
+from manifest.v1 import estafette_git_event_pb2 as manifest_dot_v1_dot_estafette__git__event__pb2
 from manifest.v1 import estafette_manual_event_pb2 as manifest_dot_v1_dot_estafette__manual__event__pb2
+from manifest.v1 import estafette_pipeline_event_pb2 as manifest_dot_v1_dot_estafette__pipeline__event__pb2
+from manifest.v1 import estafette_pub_sub_event_pb2 as manifest_dot_v1_dot_estafette__pub__sub__event__pb2
+from manifest.v1 import estafette_release_event_pb2 as manifest_dot_v1_dot_estafette__release__event__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(
@@ -26,9 +26,9 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='manifest.v1',
   syntax='proto3',
   serialized_options=_b('Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\252\002\030Estafette.CI.Manifest.V1'),
-  serialized_pb=_b('\n!manifest.v1/estafette_event.proto\x12\x0bmanifest.v1\x1a*manifest.v1/estafette_pipeline_event.proto\x1a)manifest.v1/estafette_release_event.proto\x1a%manifest.v1/estafette_git_event.proto\x1a(manifest.v1/estafette_docker_event.proto\x1a&manifest.v1/estafette_cron_event.proto\x1a)manifest.v1/estafette_pub_sub_event.proto\x1a(manifest.v1/estafette_manual_event.proto\"\xf2\x02\n\x0e\x45stafetteEvent\x12\x35\n\x08pipeline\x18\x01 \x01(\x0b\x32#.manifest.v1.EstafettePipelineEvent\x12\x33\n\x07release\x18\x02 \x01(\x0b\x32\".manifest.v1.EstafetteReleaseEvent\x12+\n\x03git\x18\x03 \x01(\x0b\x32\x1e.manifest.v1.EstafetteGitEvent\x12\x31\n\x06\x64ocker\x18\x04 \x01(\x0b\x32!.manifest.v1.EstafetteDockerEvent\x12-\n\x04\x63ron\x18\x05 \x01(\x0b\x32\x1f.manifest.v1.EstafetteCronEvent\x12\x32\n\x07pub_sub\x18\x06 \x01(\x0b\x32!.manifest.v1.EstafettePubSubEvent\x12\x31\n\x06manual\x18\x07 \x01(\x0b\x32!.manifest.v1.EstafetteManualEventB[Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\xaa\x02\x18\x45stafette.CI.Manifest.V1b\x06proto3')
+  serialized_pb=_b('\n!manifest.v1/estafette_event.proto\x12\x0bmanifest.v1\x1a&manifest.v1/estafette_cron_event.proto\x1a(manifest.v1/estafette_docker_event.proto\x1a%manifest.v1/estafette_git_event.proto\x1a(manifest.v1/estafette_manual_event.proto\x1a*manifest.v1/estafette_pipeline_event.proto\x1a)manifest.v1/estafette_pub_sub_event.proto\x1a)manifest.v1/estafette_release_event.proto\"\xf2\x02\n\x0e\x45stafetteEvent\x12\x35\n\x08pipeline\x18\x01 \x01(\x0b\x32#.manifest.v1.EstafettePipelineEvent\x12\x33\n\x07release\x18\x02 \x01(\x0b\x32\".manifest.v1.EstafetteReleaseEvent\x12+\n\x03git\x18\x03 \x01(\x0b\x32\x1e.manifest.v1.EstafetteGitEvent\x12\x31\n\x06\x64ocker\x18\x04 \x01(\x0b\x32!.manifest.v1.EstafetteDockerEvent\x12-\n\x04\x63ron\x18\x05 \x01(\x0b\x32\x1f.manifest.v1.EstafetteCronEvent\x12\x32\n\x07pub_sub\x18\x06 \x01(\x0b\x32!.manifest.v1.EstafettePubSubEvent\x12\x31\n\x06manual\x18\x07 \x01(\x0b\x32!.manifest.v1.EstafetteManualEventB[Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\xaa\x02\x18\x45stafette.CI.Manifest.V1b\x06proto3')
   ,
-  dependencies=[manifest_dot_v1_dot_estafette__pipeline__event__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__release__event__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__git__event__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__docker__event__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__cron__event__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__pub__sub__event__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__manual__event__pb2.DESCRIPTOR,])
+  dependencies=[manifest_dot_v1_dot_estafette__cron__event__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__docker__event__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__git__event__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__manual__event__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__pipeline__event__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__pub__sub__event__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__release__event__pb2.DESCRIPTOR,])
 
 
 

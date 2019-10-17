@@ -13,8 +13,8 @@ _sym_db = _symbol_database.Default()
 
 
 from manifest.v1 import estafette_release_action_pb2 as manifest_dot_v1_dot_estafette__release__action__pb2
-from manifest.v1 import estafette_trigger_pb2 as manifest_dot_v1_dot_estafette__trigger__pb2
 from manifest.v1 import estafette_stage_pb2 as manifest_dot_v1_dot_estafette__stage__pb2
+from manifest.v1 import estafette_trigger_pb2 as manifest_dot_v1_dot_estafette__trigger__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(
@@ -22,9 +22,9 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='manifest.v1',
   syntax='proto3',
   serialized_options=_b('Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\252\002\030Estafette.CI.Manifest.V1'),
-  serialized_pb=_b('\n#manifest.v1/estafette_release.proto\x12\x0bmanifest.v1\x1a*manifest.v1/estafette_release_action.proto\x1a#manifest.v1/estafette_trigger.proto\x1a!manifest.v1/estafette_stage.proto\"\xce\x01\n\x10\x45stafetteRelease\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x18\n\x10\x63lone_repository\x18\x02 \x01(\x08\x12\x34\n\x07\x61\x63tions\x18\x03 \x03(\x0b\x32#.manifest.v1.EstafetteReleaseAction\x12/\n\x08triggers\x18\x04 \x03(\x0b\x32\x1d.manifest.v1.EstafetteTrigger\x12+\n\x06stages\x18\x05 \x03(\x0b\x32\x1b.manifest.v1.EstafetteStageB[Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\xaa\x02\x18\x45stafette.CI.Manifest.V1b\x06proto3')
+  serialized_pb=_b('\n#manifest.v1/estafette_release.proto\x12\x0bmanifest.v1\x1a*manifest.v1/estafette_release_action.proto\x1a!manifest.v1/estafette_stage.proto\x1a#manifest.v1/estafette_trigger.proto\"\xce\x01\n\x10\x45stafetteRelease\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x18\n\x10\x63lone_repository\x18\x02 \x01(\x08\x12\x34\n\x07\x61\x63tions\x18\x03 \x03(\x0b\x32#.manifest.v1.EstafetteReleaseAction\x12/\n\x08triggers\x18\x04 \x03(\x0b\x32\x1d.manifest.v1.EstafetteTrigger\x12+\n\x06stages\x18\x05 \x03(\x0b\x32\x1b.manifest.v1.EstafetteStageB[Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\xaa\x02\x18\x45stafette.CI.Manifest.V1b\x06proto3')
   ,
-  dependencies=[manifest_dot_v1_dot_estafette__release__action__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__trigger__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__stage__pb2.DESCRIPTOR,])
+  dependencies=[manifest_dot_v1_dot_estafette__release__action__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__stage__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__trigger__pb2.DESCRIPTOR,])
 
 
 

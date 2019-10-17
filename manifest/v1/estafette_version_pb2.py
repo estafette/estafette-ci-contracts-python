@@ -12,8 +12,8 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-from manifest.v1 import estafette_semver_version_pb2 as manifest_dot_v1_dot_estafette__semver__version__pb2
 from manifest.v1 import estafette_custom_version_pb2 as manifest_dot_v1_dot_estafette__custom__version__pb2
+from manifest.v1 import estafette_semver_version_pb2 as manifest_dot_v1_dot_estafette__semver__version__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(
@@ -21,9 +21,9 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='manifest.v1',
   syntax='proto3',
   serialized_options=_b('Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\252\002\030Estafette.CI.Manifest.V1'),
-  serialized_pb=_b('\n#manifest.v1/estafette_version.proto\x12\x0bmanifest.v1\x1a*manifest.v1/estafette_semver_version.proto\x1a*manifest.v1/estafette_custom_version.proto\"|\n\x10\x45stafetteVersion\x12\x33\n\x06semver\x18\x01 \x01(\x0b\x32#.manifest.v1.EstafetteSemverVersion\x12\x33\n\x06\x63ustom\x18\x02 \x01(\x0b\x32#.manifest.v1.EstafetteCustomVersionB[Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\xaa\x02\x18\x45stafette.CI.Manifest.V1b\x06proto3')
+  serialized_pb=_b('\n#manifest.v1/estafette_version.proto\x12\x0bmanifest.v1\x1a*manifest.v1/estafette_custom_version.proto\x1a*manifest.v1/estafette_semver_version.proto\"|\n\x10\x45stafetteVersion\x12\x33\n\x06semver\x18\x01 \x01(\x0b\x32#.manifest.v1.EstafetteSemverVersion\x12\x33\n\x06\x63ustom\x18\x02 \x01(\x0b\x32#.manifest.v1.EstafetteCustomVersionB[Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\xaa\x02\x18\x45stafette.CI.Manifest.V1b\x06proto3')
   ,
-  dependencies=[manifest_dot_v1_dot_estafette__semver__version__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__custom__version__pb2.DESCRIPTOR,])
+  dependencies=[manifest_dot_v1_dot_estafette__custom__version__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__semver__version__pb2.DESCRIPTOR,])
 
 
 

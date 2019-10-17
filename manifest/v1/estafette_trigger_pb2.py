@@ -12,12 +12,12 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-from manifest.v1 import estafette_pipeline_trigger_pb2 as manifest_dot_v1_dot_estafette__pipeline__trigger__pb2
-from manifest.v1 import estafette_release_trigger_pb2 as manifest_dot_v1_dot_estafette__release__trigger__pb2
-from manifest.v1 import estafette_git_trigger_pb2 as manifest_dot_v1_dot_estafette__git__trigger__pb2
-from manifest.v1 import estafette_docker_trigger_pb2 as manifest_dot_v1_dot_estafette__docker__trigger__pb2
 from manifest.v1 import estafette_cron_trigger_pb2 as manifest_dot_v1_dot_estafette__cron__trigger__pb2
+from manifest.v1 import estafette_docker_trigger_pb2 as manifest_dot_v1_dot_estafette__docker__trigger__pb2
+from manifest.v1 import estafette_git_trigger_pb2 as manifest_dot_v1_dot_estafette__git__trigger__pb2
+from manifest.v1 import estafette_pipeline_trigger_pb2 as manifest_dot_v1_dot_estafette__pipeline__trigger__pb2
 from manifest.v1 import estafette_pub_sub_trigger_pb2 as manifest_dot_v1_dot_estafette__pub__sub__trigger__pb2
+from manifest.v1 import estafette_release_trigger_pb2 as manifest_dot_v1_dot_estafette__release__trigger__pb2
 from manifest.v1 import estafette_trigger_build_action_pb2 as manifest_dot_v1_dot_estafette__trigger__build__action__pb2
 from manifest.v1 import estafette_trigger_release_action_pb2 as manifest_dot_v1_dot_estafette__trigger__release__action__pb2
 
@@ -27,9 +27,9 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='manifest.v1',
   syntax='proto3',
   serialized_options=_b('Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\252\002\030Estafette.CI.Manifest.V1'),
-  serialized_pb=_b('\n#manifest.v1/estafette_trigger.proto\x12\x0bmanifest.v1\x1a,manifest.v1/estafette_pipeline_trigger.proto\x1a+manifest.v1/estafette_release_trigger.proto\x1a\'manifest.v1/estafette_git_trigger.proto\x1a*manifest.v1/estafette_docker_trigger.proto\x1a(manifest.v1/estafette_cron_trigger.proto\x1a+manifest.v1/estafette_pub_sub_trigger.proto\x1a\x30manifest.v1/estafette_trigger_build_action.proto\x1a\x32manifest.v1/estafette_trigger_release_action.proto\"\xd1\x03\n\x10\x45stafetteTrigger\x12\x37\n\x08pipeline\x18\x01 \x01(\x0b\x32%.manifest.v1.EstafettePipelineTrigger\x12\x35\n\x07release\x18\x02 \x01(\x0b\x32$.manifest.v1.EstafetteReleaseTrigger\x12-\n\x03git\x18\x03 \x01(\x0b\x32 .manifest.v1.EstafetteGitTrigger\x12\x33\n\x06\x64ocker\x18\x04 \x01(\x0b\x32#.manifest.v1.EstafetteDockerTrigger\x12/\n\x04\x63ron\x18\x05 \x01(\x0b\x32!.manifest.v1.EstafetteCronTrigger\x12\x34\n\x07pub_sub\x18\x06 \x01(\x0b\x32#.manifest.v1.EstafettePubSubTrigger\x12>\n\x0c\x62uild_action\x18\x07 \x01(\x0b\x32(.manifest.v1.EstafetteTriggerBuildAction\x12\x42\n\x0erelease_action\x18\x08 \x01(\x0b\x32*.manifest.v1.EstafetteTriggerReleaseActionB[Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\xaa\x02\x18\x45stafette.CI.Manifest.V1b\x06proto3')
+  serialized_pb=_b('\n#manifest.v1/estafette_trigger.proto\x12\x0bmanifest.v1\x1a(manifest.v1/estafette_cron_trigger.proto\x1a*manifest.v1/estafette_docker_trigger.proto\x1a\'manifest.v1/estafette_git_trigger.proto\x1a,manifest.v1/estafette_pipeline_trigger.proto\x1a+manifest.v1/estafette_pub_sub_trigger.proto\x1a+manifest.v1/estafette_release_trigger.proto\x1a\x30manifest.v1/estafette_trigger_build_action.proto\x1a\x32manifest.v1/estafette_trigger_release_action.proto\"\xd1\x03\n\x10\x45stafetteTrigger\x12\x37\n\x08pipeline\x18\x01 \x01(\x0b\x32%.manifest.v1.EstafettePipelineTrigger\x12\x35\n\x07release\x18\x02 \x01(\x0b\x32$.manifest.v1.EstafetteReleaseTrigger\x12-\n\x03git\x18\x03 \x01(\x0b\x32 .manifest.v1.EstafetteGitTrigger\x12\x33\n\x06\x64ocker\x18\x04 \x01(\x0b\x32#.manifest.v1.EstafetteDockerTrigger\x12/\n\x04\x63ron\x18\x05 \x01(\x0b\x32!.manifest.v1.EstafetteCronTrigger\x12\x34\n\x07pub_sub\x18\x06 \x01(\x0b\x32#.manifest.v1.EstafettePubSubTrigger\x12>\n\x0c\x62uild_action\x18\x07 \x01(\x0b\x32(.manifest.v1.EstafetteTriggerBuildAction\x12\x42\n\x0erelease_action\x18\x08 \x01(\x0b\x32*.manifest.v1.EstafetteTriggerReleaseActionB[Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\xaa\x02\x18\x45stafette.CI.Manifest.V1b\x06proto3')
   ,
-  dependencies=[manifest_dot_v1_dot_estafette__pipeline__trigger__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__release__trigger__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__git__trigger__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__docker__trigger__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__cron__trigger__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__pub__sub__trigger__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__trigger__build__action__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__trigger__release__action__pb2.DESCRIPTOR,])
+  dependencies=[manifest_dot_v1_dot_estafette__cron__trigger__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__docker__trigger__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__git__trigger__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__pipeline__trigger__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__pub__sub__trigger__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__release__trigger__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__trigger__build__action__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__trigger__release__action__pb2.DESCRIPTOR,])
 
 
 

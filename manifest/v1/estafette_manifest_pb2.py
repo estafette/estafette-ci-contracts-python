@@ -13,10 +13,10 @@ _sym_db = _symbol_database.Default()
 
 
 from manifest.v1 import estafette_builder_pb2 as manifest_dot_v1_dot_estafette__builder__pb2
-from manifest.v1 import estafette_version_pb2 as manifest_dot_v1_dot_estafette__version__pb2
-from manifest.v1 import estafette_trigger_pb2 as manifest_dot_v1_dot_estafette__trigger__pb2
-from manifest.v1 import estafette_stage_pb2 as manifest_dot_v1_dot_estafette__stage__pb2
 from manifest.v1 import estafette_release_pb2 as manifest_dot_v1_dot_estafette__release__pb2
+from manifest.v1 import estafette_stage_pb2 as manifest_dot_v1_dot_estafette__stage__pb2
+from manifest.v1 import estafette_trigger_pb2 as manifest_dot_v1_dot_estafette__trigger__pb2
+from manifest.v1 import estafette_version_pb2 as manifest_dot_v1_dot_estafette__version__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(
@@ -24,9 +24,9 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='manifest.v1',
   syntax='proto3',
   serialized_options=_b('Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\252\002\030Estafette.CI.Manifest.V1'),
-  serialized_pb=_b('\n$manifest.v1/estafette_manifest.proto\x12\x0bmanifest.v1\x1a#manifest.v1/estafette_builder.proto\x1a#manifest.v1/estafette_version.proto\x1a#manifest.v1/estafette_trigger.proto\x1a!manifest.v1/estafette_stage.proto\x1a#manifest.v1/estafette_release.proto\"\xef\x03\n\x11\x45stafetteManifest\x12.\n\x07\x62uilder\x18\x01 \x01(\x0b\x32\x1d.manifest.v1.EstafetteBuilder\x12:\n\x06labels\x18\x02 \x03(\x0b\x32*.manifest.v1.EstafetteManifest.LabelsEntry\x12.\n\x07version\x18\x03 \x01(\x0b\x32\x1d.manifest.v1.EstafetteVersion\x12J\n\x0fglobal_env_vars\x18\x04 \x03(\x0b\x32\x31.manifest.v1.EstafetteManifest.GlobalEnvVarsEntry\x12/\n\x08triggers\x18\x05 \x03(\x0b\x32\x1d.manifest.v1.EstafetteTrigger\x12+\n\x06stages\x18\x06 \x03(\x0b\x32\x1b.manifest.v1.EstafetteStage\x12/\n\x08releases\x18\x07 \x03(\x0b\x32\x1d.manifest.v1.EstafetteRelease\x1a-\n\x0bLabelsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\x1a\x34\n\x12GlobalEnvVarsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\x42[Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\xaa\x02\x18\x45stafette.CI.Manifest.V1b\x06proto3')
+  serialized_pb=_b('\n$manifest.v1/estafette_manifest.proto\x12\x0bmanifest.v1\x1a#manifest.v1/estafette_builder.proto\x1a#manifest.v1/estafette_release.proto\x1a!manifest.v1/estafette_stage.proto\x1a#manifest.v1/estafette_trigger.proto\x1a#manifest.v1/estafette_version.proto\"\xef\x03\n\x11\x45stafetteManifest\x12.\n\x07\x62uilder\x18\x01 \x01(\x0b\x32\x1d.manifest.v1.EstafetteBuilder\x12:\n\x06labels\x18\x02 \x03(\x0b\x32*.manifest.v1.EstafetteManifest.LabelsEntry\x12.\n\x07version\x18\x03 \x01(\x0b\x32\x1d.manifest.v1.EstafetteVersion\x12J\n\x0fglobal_env_vars\x18\x04 \x03(\x0b\x32\x31.manifest.v1.EstafetteManifest.GlobalEnvVarsEntry\x12/\n\x08triggers\x18\x05 \x03(\x0b\x32\x1d.manifest.v1.EstafetteTrigger\x12+\n\x06stages\x18\x06 \x03(\x0b\x32\x1b.manifest.v1.EstafetteStage\x12/\n\x08releases\x18\x07 \x03(\x0b\x32\x1d.manifest.v1.EstafetteRelease\x1a-\n\x0bLabelsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\x1a\x34\n\x12GlobalEnvVarsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\x42[Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\xaa\x02\x18\x45stafette.CI.Manifest.V1b\x06proto3')
   ,
-  dependencies=[manifest_dot_v1_dot_estafette__builder__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__version__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__trigger__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__stage__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__release__pb2.DESCRIPTOR,])
+  dependencies=[manifest_dot_v1_dot_estafette__builder__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__release__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__stage__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__trigger__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__version__pb2.DESCRIPTOR,])
 
 
 

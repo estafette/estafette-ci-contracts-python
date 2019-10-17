@@ -12,9 +12,9 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-from google.protobuf import duration_pb2 as google_dot_protobuf_dot_duration__pb2
 from contracts.v1 import build_log_line_pb2 as contracts_dot_v1_dot_build__log__line__pb2
 from contracts.v1 import build_log_step_docker_image_pb2 as contracts_dot_v1_dot_build__log__step__docker__image__pb2
+from google.protobuf import duration_pb2 as google_dot_protobuf_dot_duration__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(
@@ -22,9 +22,9 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='contracts.v1',
   syntax='proto3',
   serialized_options=_b('Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\252\002\031Estafette.CI.Contracts.V1'),
-  serialized_pb=_b('\n contracts.v1/tail_log_line.proto\x12\x0c\x63ontracts.v1\x1a\x1egoogle/protobuf/duration.proto\x1a!contracts.v1/build_log_line.proto\x1a.contracts.v1/build_log_step_docker_image.proto\"\xe6\x01\n\x0bTailLogLine\x12\x0c\n\x04step\x18\x01 \x01(\t\x12,\n\x08log_line\x18\x02 \x01(\x0b\x32\x1a.contracts.v1.BuildLogLine\x12\x34\n\x05image\x18\x03 \x01(\x0b\x32%.contracts.v1.BuildLogStepDockerImage\x12+\n\x08\x64uration\x18\x04 \x01(\x0b\x32\x19.google.protobuf.Duration\x12\x11\n\texit_code\x18\x05 \x01(\x03\x12\x0e\n\x06status\x18\x06 \x01(\t\x12\x15\n\rauto_injected\x18\x07 \x01(\x08\x42]Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\xaa\x02\x19\x45stafette.CI.Contracts.V1b\x06proto3')
+  serialized_pb=_b('\n contracts.v1/tail_log_line.proto\x12\x0c\x63ontracts.v1\x1a!contracts.v1/build_log_line.proto\x1a.contracts.v1/build_log_step_docker_image.proto\x1a\x1egoogle/protobuf/duration.proto\"\xe6\x01\n\x0bTailLogLine\x12\x0c\n\x04step\x18\x01 \x01(\t\x12,\n\x08log_line\x18\x02 \x01(\x0b\x32\x1a.contracts.v1.BuildLogLine\x12\x34\n\x05image\x18\x03 \x01(\x0b\x32%.contracts.v1.BuildLogStepDockerImage\x12+\n\x08\x64uration\x18\x04 \x01(\x0b\x32\x19.google.protobuf.Duration\x12\x11\n\texit_code\x18\x05 \x01(\x03\x12\x0e\n\x06status\x18\x06 \x01(\t\x12\x15\n\rauto_injected\x18\x07 \x01(\x08\x42]Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\xaa\x02\x19\x45stafette.CI.Contracts.V1b\x06proto3')
   ,
-  dependencies=[google_dot_protobuf_dot_duration__pb2.DESCRIPTOR,contracts_dot_v1_dot_build__log__line__pb2.DESCRIPTOR,contracts_dot_v1_dot_build__log__step__docker__image__pb2.DESCRIPTOR,])
+  dependencies=[contracts_dot_v1_dot_build__log__line__pb2.DESCRIPTOR,contracts_dot_v1_dot_build__log__step__docker__image__pb2.DESCRIPTOR,google_dot_protobuf_dot_duration__pb2.DESCRIPTOR,])
 
 
 
