@@ -19,8 +19,8 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='contracts.v1/credential_config.proto',
   package='contracts.v1',
   syntax='proto3',
-  serialized_options=_b('Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1'),
-  serialized_pb=_b('\n$contracts.v1/credential_config.proto\x12\x0c\x63ontracts.v1\x1a\x19google/protobuf/any.proto\"\xda\x01\n\x10\x43redentialConfig\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0c\n\x04type\x18\x02 \x01(\t\x12W\n\x15\x61\x64\x64itional_properties\x18\x03 \x03(\x0b\x32\x38.contracts.v1.CredentialConfig.AdditionalPropertiesEntry\x1aQ\n\x19\x41\x64\x64itionalPropertiesEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12#\n\x05value\x18\x02 \x01(\x0b\x32\x14.google.protobuf.Any:\x02\x38\x01\x42\x41Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1b\x06proto3')
+  serialized_options=_b('Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\252\002\031Estafette.CI.Contracts.V1'),
+  serialized_pb=_b('\n$contracts.v1/credential_config.proto\x12\x0c\x63ontracts.v1\x1a\x19google/protobuf/any.proto\"\xda\x01\n\x10\x43redentialConfig\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0c\n\x04type\x18\x02 \x01(\t\x12W\n\x15\x61\x64\x64itional_properties\x18\x03 \x03(\x0b\x32\x38.contracts.v1.CredentialConfig.AdditionalPropertiesEntry\x1aQ\n\x19\x41\x64\x64itionalPropertiesEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12#\n\x05value\x18\x02 \x01(\x0b\x32\x14.google.protobuf.Any:\x02\x38\x01\x42]Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\xaa\x02\x19\x45stafette.CI.Contracts.V1b\x06proto3')
   ,
   dependencies=[google_dot_protobuf_dot_any__pb2.DESCRIPTOR,])
 

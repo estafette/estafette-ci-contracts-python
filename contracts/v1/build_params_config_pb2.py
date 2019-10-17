@@ -18,8 +18,8 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='contracts.v1/build_params_config.proto',
   package='contracts.v1',
   syntax='proto3',
-  serialized_options=_b('Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1'),
-  serialized_pb=_b('\n&contracts.v1/build_params_config.proto\x12\x0c\x63ontracts.v1\"%\n\x11\x42uildParamsConfig\x12\x10\n\x08\x62uild_id\x18\x01 \x01(\x03\x42\x41Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1b\x06proto3')
+  serialized_options=_b('Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\252\002\031Estafette.CI.Contracts.V1'),
+  serialized_pb=_b('\n&contracts.v1/build_params_config.proto\x12\x0c\x63ontracts.v1\"%\n\x11\x42uildParamsConfig\x12\x10\n\x08\x62uild_id\x18\x01 \x01(\x03\x42]Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\xaa\x02\x19\x45stafette.CI.Contracts.V1b\x06proto3')
 )
 
 

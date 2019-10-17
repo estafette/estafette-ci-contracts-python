@@ -18,8 +18,8 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='contracts.v1/build_version_config.proto',
   package='contracts.v1',
   syntax='proto3',
-  serialized_options=_b('Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1'),
-  serialized_pb=_b('\n\'contracts.v1/build_version_config.proto\x12\x0c\x63ontracts.v1\"y\n\x12\x42uildVersionConfig\x12\x0f\n\x07version\x18\x01 \x01(\t\x12\r\n\x05major\x18\x02 \x01(\x03\x12\r\n\x05minor\x18\x03 \x01(\x03\x12\r\n\x05patch\x18\x04 \x01(\t\x12\r\n\x05label\x18\x05 \x01(\t\x12\x16\n\x0e\x61uto_increment\x18\x06 \x01(\x03\x42\x41Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1b\x06proto3')
+  serialized_options=_b('Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\252\002\031Estafette.CI.Contracts.V1'),
+  serialized_pb=_b('\n\'contracts.v1/build_version_config.proto\x12\x0c\x63ontracts.v1\"y\n\x12\x42uildVersionConfig\x12\x0f\n\x07version\x18\x01 \x01(\t\x12\r\n\x05major\x18\x02 \x01(\x03\x12\r\n\x05minor\x18\x03 \x01(\x03\x12\r\n\x05patch\x18\x04 \x01(\t\x12\r\n\x05label\x18\x05 \x01(\t\x12\x16\n\x0e\x61uto_increment\x18\x06 \x01(\x03\x42]Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\xaa\x02\x19\x45stafette.CI.Contracts.V1b\x06proto3')
 )
 
 
