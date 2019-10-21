@@ -19,8 +19,8 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='manifest.v1/estafette_semver_version.proto',
   package='manifest.v1',
   syntax='proto3',
-  serialized_options=_b('Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\252\002\030Estafette.CI.Manifest.V1'),
-  serialized_pb=_b('\n*manifest.v1/estafette_semver_version.proto\x12\x0bmanifest.v1\x1a(manifest.v1/string_or_string_array.proto\"\x97\x01\n\x16\x45stafetteSemverVersion\x12\r\n\x05major\x18\x01 \x01(\x03\x12\r\n\x05minor\x18\x02 \x01(\x03\x12\r\n\x05patch\x18\x03 \x01(\t\x12\x16\n\x0elabel_template\x18\x04 \x01(\t\x12\x38\n\x0erelease_branch\x18\x05 \x01(\x0b\x32 .manifest.v1.StringOrStringArrayB[Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\xaa\x02\x18\x45stafette.CI.Manifest.V1b\x06proto3')
+  serialized_options=_b('\n\033io.estafette.ci.manifest.v1Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\252\002\030Estafette.CI.Manifest.V1'),
+  serialized_pb=_b('\n*manifest.v1/estafette_semver_version.proto\x12\x0bmanifest.v1\x1a(manifest.v1/string_or_string_array.proto\"\x97\x01\n\x16\x45stafetteSemverVersion\x12\r\n\x05major\x18\x01 \x01(\x03\x12\r\n\x05minor\x18\x02 \x01(\x03\x12\r\n\x05patch\x18\x03 \x01(\t\x12\x16\n\x0elabel_template\x18\x04 \x01(\t\x12\x38\n\x0erelease_branch\x18\x05 \x01(\x0b\x32 .manifest.v1.StringOrStringArrayBx\n\x1bio.estafette.ci.manifest.v1Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\xaa\x02\x18\x45stafette.CI.Manifest.V1b\x06proto3')
   ,
   dependencies=[manifest_dot_v1_dot_string__or__string__array__pb2.DESCRIPTOR,])
 

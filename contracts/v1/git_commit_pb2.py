@@ -19,8 +19,8 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='contracts.v1/git_commit.proto',
   package='contracts.v1',
   syntax='proto3',
-  serialized_options=_b('Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\252\002\031Estafette.CI.Contracts.V1'),
-  serialized_pb=_b('\n\x1d\x63ontracts.v1/git_commit.proto\x12\x0c\x63ontracts.v1\x1a\x1d\x63ontracts.v1/git_author.proto\"E\n\tGitCommit\x12\x0f\n\x07message\x18\x01 \x01(\t\x12\'\n\x06\x61uthor\x18\x02 \x01(\x0b\x32\x17.contracts.v1.GitAuthorB]Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\xaa\x02\x19\x45stafette.CI.Contracts.V1b\x06proto3')
+  serialized_options=_b('\n\034io.estafette.ci.contracts.v1Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\252\002\031Estafette.CI.Contracts.V1'),
+  serialized_pb=_b('\n\x1d\x63ontracts.v1/git_commit.proto\x12\x0c\x63ontracts.v1\x1a\x1d\x63ontracts.v1/git_author.proto\"E\n\tGitCommit\x12\x0f\n\x07message\x18\x01 \x01(\t\x12\'\n\x06\x61uthor\x18\x02 \x01(\x0b\x32\x17.contracts.v1.GitAuthorB{\n\x1cio.estafette.ci.contracts.v1Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\xaa\x02\x19\x45stafette.CI.Contracts.V1b\x06proto3')
   ,
   dependencies=[contracts_dot_v1_dot_git__author__pb2.DESCRIPTOR,])
 

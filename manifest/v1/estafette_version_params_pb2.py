@@ -18,8 +18,8 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='manifest.v1/estafette_version_params.proto',
   package='manifest.v1',
   syntax='proto3',
-  serialized_options=_b('Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\252\002\030Estafette.CI.Manifest.V1'),
-  serialized_pb=_b('\n*manifest.v1/estafette_version_params.proto\x12\x0bmanifest.v1\"R\n\x16\x45stafetteVersionParams\x12\x16\n\x0e\x61uto_increment\x18\x01 \x01(\x03\x12\x0e\n\x06\x62ranch\x18\x02 \x01(\t\x12\x10\n\x08revision\x18\x03 \x01(\tB[Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\xaa\x02\x18\x45stafette.CI.Manifest.V1b\x06proto3')
+  serialized_options=_b('\n\033io.estafette.ci.manifest.v1Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\252\002\030Estafette.CI.Manifest.V1'),
+  serialized_pb=_b('\n*manifest.v1/estafette_version_params.proto\x12\x0bmanifest.v1\"R\n\x16\x45stafetteVersionParams\x12\x16\n\x0e\x61uto_increment\x18\x01 \x01(\x03\x12\x0e\n\x06\x62ranch\x18\x02 \x01(\t\x12\x10\n\x08revision\x18\x03 \x01(\tBx\n\x1bio.estafette.ci.manifest.v1Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\xaa\x02\x18\x45stafette.CI.Manifest.V1b\x06proto3')
 )
 
 

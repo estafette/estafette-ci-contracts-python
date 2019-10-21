@@ -18,8 +18,8 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='contracts.v1/ci_server_config.proto',
   package='contracts.v1',
   syntax='proto3',
-  serialized_options=_b('Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\252\002\031Estafette.CI.Contracts.V1'),
-  serialized_pb=_b('\n#contracts.v1/ci_server_config.proto\x12\x0c\x63ontracts.v1\"f\n\x0e\x43IServerConfig\x12\x10\n\x08\x62\x61se_url\x18\x01 \x01(\t\x12\x1a\n\x12\x62uilder_events_url\x18\x02 \x01(\t\x12\x15\n\rpost_logs_url\x18\x03 \x01(\t\x12\x0f\n\x07\x61pi_key\x18\x04 \x01(\tB]Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\xaa\x02\x19\x45stafette.CI.Contracts.V1b\x06proto3')
+  serialized_options=_b('\n\034io.estafette.ci.contracts.v1Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\252\002\031Estafette.CI.Contracts.V1'),
+  serialized_pb=_b('\n#contracts.v1/ci_server_config.proto\x12\x0c\x63ontracts.v1\"f\n\x0e\x43IServerConfig\x12\x10\n\x08\x62\x61se_url\x18\x01 \x01(\t\x12\x1a\n\x12\x62uilder_events_url\x18\x02 \x01(\t\x12\x15\n\rpost_logs_url\x18\x03 \x01(\t\x12\x0f\n\x07\x61pi_key\x18\x04 \x01(\tB{\n\x1cio.estafette.ci.contracts.v1Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\xaa\x02\x19\x45stafette.CI.Contracts.V1b\x06proto3')
 )
 
 
