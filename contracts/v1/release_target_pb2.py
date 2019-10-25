@@ -20,8 +20,8 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='contracts.v1/release_target.proto',
   package='contracts.v1',
   syntax='proto3',
-  serialized_options=_b('\n\034io.estafette.ci.contracts.v1Z<github.com/estafette/estafette-ci-protos-golang/contracts_v1\252\002\031Estafette.CI.Contracts.V1'),
-  serialized_pb=_b('\n!contracts.v1/release_target.proto\x12\x0c\x63ontracts.v1\x1a\x1a\x63ontracts.v1/release.proto\x1a*manifest.v1/estafette_release_action.proto\"\x83\x01\n\rReleaseTarget\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x34\n\x07\x61\x63tions\x18\x02 \x03(\x0b\x32#.manifest.v1.EstafetteReleaseAction\x12.\n\x0f\x61\x63tive_releases\x18\x03 \x03(\x0b\x32\x15.contracts.v1.ReleaseBx\n\x1cio.estafette.ci.contracts.v1Z<github.com/estafette/estafette-ci-protos-golang/contracts_v1\xaa\x02\x19\x45stafette.CI.Contracts.V1b\x06proto3')
+  serialized_options=_b('\n#io.estafette.ci.protos.contracts.v1Z<github.com/estafette/estafette-ci-protos-golang/contracts_v1\252\002\031Estafette.CI.Contracts.V1'),
+  serialized_pb=_b('\n!contracts.v1/release_target.proto\x12\x0c\x63ontracts.v1\x1a\x1a\x63ontracts.v1/release.proto\x1a*manifest.v1/estafette_release_action.proto\"\x83\x01\n\rReleaseTarget\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x34\n\x07\x61\x63tions\x18\x02 \x03(\x0b\x32#.manifest.v1.EstafetteReleaseAction\x12.\n\x0f\x61\x63tive_releases\x18\x03 \x03(\x0b\x32\x15.contracts.v1.ReleaseB\x7f\n#io.estafette.ci.protos.contracts.v1Z<github.com/estafette/estafette-ci-protos-golang/contracts_v1\xaa\x02\x19\x45stafette.CI.Contracts.V1b\x06proto3')
   ,
   dependencies=[contracts_dot_v1_dot_release__pb2.DESCRIPTOR,manifest_dot_v1_dot_estafette__release__action__pb2.DESCRIPTOR,])
 

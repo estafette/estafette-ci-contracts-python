@@ -18,8 +18,8 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='manifest.v1/estafette_cron_trigger.proto',
   package='manifest.v1',
   syntax='proto3',
-  serialized_options=_b('\n\033io.estafette.ci.manifest.v1Z;github.com/estafette/estafette-ci-protos-golang/manifest_v1\252\002\030Estafette.CI.Manifest.V1'),
-  serialized_pb=_b('\n(manifest.v1/estafette_cron_trigger.proto\x12\x0bmanifest.v1\"(\n\x14\x45stafetteCronTrigger\x12\x10\n\x08schedule\x18\x01 \x01(\tBu\n\x1bio.estafette.ci.manifest.v1Z;github.com/estafette/estafette-ci-protos-golang/manifest_v1\xaa\x02\x18\x45stafette.CI.Manifest.V1b\x06proto3')
+  serialized_options=_b('\n\"io.estafette.ci.protos.manifest.v1Z;github.com/estafette/estafette-ci-protos-golang/manifest_v1\252\002\030Estafette.CI.Manifest.V1'),
+  serialized_pb=_b('\n(manifest.v1/estafette_cron_trigger.proto\x12\x0bmanifest.v1\"(\n\x14\x45stafetteCronTrigger\x12\x10\n\x08schedule\x18\x01 \x01(\tB|\n\"io.estafette.ci.protos.manifest.v1Z;github.com/estafette/estafette-ci-protos-golang/manifest_v1\xaa\x02\x18\x45stafette.CI.Manifest.V1b\x06proto3')
 )
 
 
