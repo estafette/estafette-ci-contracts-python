@@ -19,8 +19,8 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='contracts.v1/build_log_step_docker_image.proto',
   package='contracts.v1',
   syntax='proto3',
-  serialized_options=_b('\n\034io.estafette.ci.contracts.v1Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\252\002\031Estafette.CI.Contracts.V1'),
-  serialized_pb=_b('\n.contracts.v1/build_log_step_docker_image.proto\x12\x0c\x63ontracts.v1\x1a\x1egoogle/protobuf/duration.proto\"\xb0\x01\n\x17\x42uildLogStepDockerImage\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0b\n\x03tag\x18\x02 \x01(\t\x12\x11\n\tis_pulled\x18\x03 \x01(\x08\x12\x12\n\nimage_size\x18\x04 \x01(\x03\x12\x30\n\rpull_duration\x18\x05 \x01(\x0b\x32\x19.google.protobuf.Duration\x12\r\n\x05\x65rror\x18\x06 \x01(\t\x12\x12\n\nis_trusted\x18\x07 \x01(\x08\x42{\n\x1cio.estafette.ci.contracts.v1Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\xaa\x02\x19\x45stafette.CI.Contracts.V1b\x06proto3')
+  serialized_options=_b('\n\034io.estafette.ci.contracts.v1Z<github.com/estafette/estafette-ci-protos-golang/contracts_v1\252\002\031Estafette.CI.Contracts.V1'),
+  serialized_pb=_b('\n.contracts.v1/build_log_step_docker_image.proto\x12\x0c\x63ontracts.v1\x1a\x1egoogle/protobuf/duration.proto\"\xb0\x01\n\x17\x42uildLogStepDockerImage\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0b\n\x03tag\x18\x02 \x01(\t\x12\x11\n\tis_pulled\x18\x03 \x01(\x08\x12\x12\n\nimage_size\x18\x04 \x01(\x03\x12\x30\n\rpull_duration\x18\x05 \x01(\x0b\x32\x19.google.protobuf.Duration\x12\r\n\x05\x65rror\x18\x06 \x01(\t\x12\x12\n\nis_trusted\x18\x07 \x01(\x08\x42x\n\x1cio.estafette.ci.contracts.v1Z<github.com/estafette/estafette-ci-protos-golang/contracts_v1\xaa\x02\x19\x45stafette.CI.Contracts.V1b\x06proto3')
   ,
   dependencies=[google_dot_protobuf_dot_duration__pb2.DESCRIPTOR,])
 

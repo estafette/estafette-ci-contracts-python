@@ -18,8 +18,8 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='manifest.v1/estafette_trigger_release_action.proto',
   package='manifest.v1',
   syntax='proto3',
-  serialized_options=_b('\n\033io.estafette.ci.manifest.v1Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\252\002\030Estafette.CI.Manifest.V1'),
-  serialized_pb=_b('\n2manifest.v1/estafette_trigger_release_action.proto\x12\x0bmanifest.v1\"P\n\x1d\x45stafetteTriggerReleaseAction\x12\x0e\n\x06target\x18\x01 \x01(\t\x12\x0e\n\x06\x61\x63tion\x18\x02 \x01(\t\x12\x0f\n\x07version\x18\x03 \x01(\tBx\n\x1bio.estafette.ci.manifest.v1Z>github.com/estafette/estafette-ci-contracts-golang/manifest_v1\xaa\x02\x18\x45stafette.CI.Manifest.V1b\x06proto3')
+  serialized_options=_b('\n\033io.estafette.ci.manifest.v1Z;github.com/estafette/estafette-ci-protos-golang/manifest_v1\252\002\030Estafette.CI.Manifest.V1'),
+  serialized_pb=_b('\n2manifest.v1/estafette_trigger_release_action.proto\x12\x0bmanifest.v1\"P\n\x1d\x45stafetteTriggerReleaseAction\x12\x0e\n\x06target\x18\x01 \x01(\t\x12\x0e\n\x06\x61\x63tion\x18\x02 \x01(\t\x12\x0f\n\x07version\x18\x03 \x01(\tBu\n\x1bio.estafette.ci.manifest.v1Z;github.com/estafette/estafette-ci-protos-golang/manifest_v1\xaa\x02\x18\x45stafette.CI.Manifest.V1b\x06proto3')
 )
 
 

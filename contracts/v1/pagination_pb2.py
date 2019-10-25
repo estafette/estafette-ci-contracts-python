@@ -18,8 +18,8 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='contracts.v1/pagination.proto',
   package='contracts.v1',
   syntax='proto3',
-  serialized_options=_b('\n\034io.estafette.ci.contracts.v1Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\252\002\031Estafette.CI.Contracts.V1'),
-  serialized_pb=_b('\n\x1d\x63ontracts.v1/pagination.proto\x12\x0c\x63ontracts.v1\"R\n\nPagination\x12\x0c\n\x04page\x18\x01 \x01(\x03\x12\x0c\n\x04size\x18\x02 \x01(\x03\x12\x13\n\x0btotal_pages\x18\x03 \x01(\x03\x12\x13\n\x0btotal_items\x18\x04 \x01(\x03\x42{\n\x1cio.estafette.ci.contracts.v1Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\xaa\x02\x19\x45stafette.CI.Contracts.V1b\x06proto3')
+  serialized_options=_b('\n\034io.estafette.ci.contracts.v1Z<github.com/estafette/estafette-ci-protos-golang/contracts_v1\252\002\031Estafette.CI.Contracts.V1'),
+  serialized_pb=_b('\n\x1d\x63ontracts.v1/pagination.proto\x12\x0c\x63ontracts.v1\"R\n\nPagination\x12\x0c\n\x04page\x18\x01 \x01(\x03\x12\x0c\n\x04size\x18\x02 \x01(\x03\x12\x13\n\x0btotal_pages\x18\x03 \x01(\x03\x12\x13\n\x0btotal_items\x18\x04 \x01(\x03\x42x\n\x1cio.estafette.ci.contracts.v1Z<github.com/estafette/estafette-ci-protos-golang/contracts_v1\xaa\x02\x19\x45stafette.CI.Contracts.V1b\x06proto3')
 )
 
 

@@ -20,8 +20,8 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='contracts.v1/list_response.proto',
   package='contracts.v1',
   syntax='proto3',
-  serialized_options=_b('\n\034io.estafette.ci.contracts.v1Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\252\002\031Estafette.CI.Contracts.V1'),
-  serialized_pb=_b('\n contracts.v1/list_response.proto\x12\x0c\x63ontracts.v1\x1a\x1d\x63ontracts.v1/pagination.proto\x1a\x19google/protobuf/any.proto\"a\n\x0cListResponse\x12#\n\x05items\x18\x01 \x03(\x0b\x32\x14.google.protobuf.Any\x12,\n\npagination\x18\x02 \x01(\x0b\x32\x18.contracts.v1.PaginationB{\n\x1cio.estafette.ci.contracts.v1Z?github.com/estafette/estafette-ci-contracts-golang/contracts_v1\xaa\x02\x19\x45stafette.CI.Contracts.V1b\x06proto3')
+  serialized_options=_b('\n\034io.estafette.ci.contracts.v1Z<github.com/estafette/estafette-ci-protos-golang/contracts_v1\252\002\031Estafette.CI.Contracts.V1'),
+  serialized_pb=_b('\n contracts.v1/list_response.proto\x12\x0c\x63ontracts.v1\x1a\x1d\x63ontracts.v1/pagination.proto\x1a\x19google/protobuf/any.proto\"a\n\x0cListResponse\x12#\n\x05items\x18\x01 \x03(\x0b\x32\x14.google.protobuf.Any\x12,\n\npagination\x18\x02 \x01(\x0b\x32\x18.contracts.v1.PaginationBx\n\x1cio.estafette.ci.contracts.v1Z<github.com/estafette/estafette-ci-protos-golang/contracts_v1\xaa\x02\x19\x45stafette.CI.Contracts.V1b\x06proto3')
   ,
   dependencies=[contracts_dot_v1_dot_pagination__pb2.DESCRIPTOR,google_dot_protobuf_dot_any__pb2.DESCRIPTOR,])
 
